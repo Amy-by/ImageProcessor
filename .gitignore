@@ -1,0 +1,12 @@
+# Qt 编译产物
+build/          # 构建目录（默认名，若自定义则改对应名）
+*.pro.user      # Qt Creator 配置文件
+*.o             # 编译中间文件
+*.exe           # 可执行程序（若要上传可执行文件则删除此行）
+
+# OpenCV 相关（库文件无需上传，依赖自行安装）
+opencv_*        # 避免误传OpenCV动态库
+
+# 系统临时文件
+.DS_Store       # Mac 系统
+Thumbs.db       # Windows 系统
